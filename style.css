@@ -113,7 +113,7 @@ height: 500px;
 
 .card p{ 
  color: #473731;
-  font-size: 40px;
+  font-size: 35px;
   font-family: "Lalezar", sans-serif;
 font-weight: 400;
 font-style: normal;
@@ -248,7 +248,7 @@ ul {
 }
 li { 
   margin: 10px;
-font-size: 15px;
+font-size: 25px;
   font-family: "Lalezar", sans-serif;
 font-weight: 400;
 font-style: normal;
@@ -322,7 +322,7 @@ margin-bottom: 30px;
 }
 
 .service-card h3 {
-  font-size: 15px;
+  font-size: 25px;
   font-weight: 600;
   margin: 0;
   line-height: 1.2;
@@ -465,8 +465,8 @@ nav ul li:hover{
 
 nav ul{ padding-top: 30px;}
 
-#menuBtn{width: 60px; 
-  height: 60px; 
+#menuBtn{width: 75px; 
+  height: 75px; 
   background: #96776d;
   text-align: center; 
   position: fixed ; 
@@ -476,6 +476,6 @@ nav ul{ padding-top: 30px;}
   cursor: pointer;}
   
 #menuBtn img{ 
-  width: 30px;
+  width: 35px;
   margin-top: 15px;
 }
