@@ -96,7 +96,6 @@ height: 500px;
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 100vh;
   font-family: sans-serif;
 }
 
@@ -110,8 +109,28 @@ height: 500px;
   text-align: center;
 }
 
+
+
 .card p{ 
-  margin-bottom: 40px; 
+ color: #473731;
+  font-size: 40px;
+  font-family: "Lalezar", sans-serif;
+font-weight: 400;
+font-style: normal;
+}
+
+.card h2 { 
+color: #473731;
+  font-size: 50px;
+  font-family: "Lalezar", sans-serif;
+font-weight: 400;
+font-style: normal;
+margin-bottom: 30px;
+}
+
+i {
+  color: #4e342e;
+font-size: 25px;
 }
 
 .logo {
@@ -151,7 +170,12 @@ height: 500px;
   box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.1);
 }
 
-h2 { 
+.wave-section1 h2 { 
+  padding: 30px;
+font-size: 35px;
+}
+
+.wave-section2 h2 { 
   padding: 30px;
 font-size: 35px;
 }
@@ -161,14 +185,6 @@ font-size: 35px;
   height: 28px;
 }
 
-.item span {
-  font-size: 17px;
-  color: #4e342e;
-  font-weight: 500;
-  font-family: "Lalezar", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-}
 
 @media (max-width: 480px) {
   .card {
@@ -232,7 +248,11 @@ ul {
 }
 li { 
   margin: 10px;
-font-size: 70%;
+font-size: 15px;
+  font-family: "Lalezar", sans-serif;
+font-weight: 400;
+font-style: normal;
+margin-bottom: 30px;
 }
 
 .wave-section2 {
@@ -259,7 +279,6 @@ font-size: 70%;
 
 .service-content {
   position: relative;
-  z-index: 2;
   max-width: 1200px;
   margin: 0 auto;
 }
@@ -294,8 +313,8 @@ font-size: 70%;
 }
 
 .service-card img {
-  width: 64px;
-  height: 64px;
+  width: 124px;
+  height: 124px;
   margin-bottom: 12px;
   border-radius: 50%;
   object-fit: contain;
@@ -303,11 +322,16 @@ font-size: 70%;
 }
 
 .service-card h3 {
-  font-size: 70%;
+  font-size: 15px;
   font-weight: 600;
   margin: 0;
   line-height: 1.2;
   user-select: none;
+    font-family: "Lalezar", sans-serif;
+font-weight: 400;
+font-style: normal;
+margin-bottom: 30px;
+color: white;
 }
 
 .service-card:hover {
@@ -347,7 +371,7 @@ font-size: 70%;
 
 .textipersonal-col{
   flex-basis: 28%; 
-  padding: 10px; 
+  padding: 15px; 
   margin-bottom: 30px; 
   border-radius: 5px; 
   box-shadow: 0 10px 20px 3px rgb(12, 57, 109); 
@@ -356,24 +380,20 @@ font-size: 70%;
   background-color: #ffffff;
 }
 
-.textipersonal-col p{ font-size: 14px; }
+.textipersonal-col p{ font-size: 24px; }
 
-i {color: #4e342e;}
+
 
 .user{
   background-color:#8d6e6315;
   display: flex; 
   align-items: center; 
-  margin: 20px 0;}
+  margin: 0px 0;}
 
 .user img { width: 40px; margin: 20px ; border-radius: 3px;}
 
-.user h2{ font-size: 24px;}
+.user h2{ font-size: 30px;}
 
-.user-info p{ 
-  font-family: "Pacifico", cursive;
-  font-weight: 400;
-  font-style: normal;}
 
 .textipersonal-col:hover{ 
   transform: translateY(-7px);box-shadow: 0 10px 20px 3px rgb(0, 0, 0)}
@@ -404,8 +424,14 @@ div button{
 }
 
 h3{
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
+font-size: 20px;}
 
+.form2 h3{
+  font-size: 40px;
+      font-family: "Lalezar", sans-serif;
+font-weight: 400;
+font-style: normal;
+}
 #sideNav{ 
   width:200px; 
   height:auto;
@@ -439,8 +465,8 @@ nav ul li:hover{
 
 nav ul{ padding-top: 30px;}
 
-#menuBtn{width: 50px; 
-  height: 50px; 
+#menuBtn{width: 60px; 
+  height: 60px; 
   background: #96776d;
   text-align: center; 
   position: fixed ; 
@@ -450,6 +476,6 @@ nav ul{ padding-top: 30px;}
   cursor: pointer;}
   
 #menuBtn img{ 
-  width: 20px;
+  width: 30px;
   margin-top: 15px;
 }
